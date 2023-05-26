@@ -1,0 +1,57 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family:"Calibri", sans-serif;
+    background-color: rgb(64, 64, 68);
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.sessao_prin{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
+    border: 5px solid aliceblue;
+    border-radius: 50px;
+    background-color: rgb(43, 43, 46);
+}
+
+.titulo{
+    color: aliceblue;
+    font-size: 40px;
+    margin: 0;
+}
+
+table, th, td{
+    margin: 20px;
+    color: aliceblue;
+    text-align: center;
+    padding: 7px;
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+.cabeça{
+    font-weight: normal;
+    color:  rgb(51,153,51);
+}
+
+.cabecinha{
+    font-weight: normal;
+    color: rgb(236,18,124);
+}
+
+.corpo{
+    color: rgb(102,153,255);
+}
+.rodape{
+    color: rgb(135,139,184);
+}

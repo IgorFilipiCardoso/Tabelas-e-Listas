@@ -1,0 +1,48 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family:"Calibri", sans-serif;
+    background-color: rgb(64, 64, 68);
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.cursos{
+    border: 5px solid aliceblue;
+    border-radius: 50px;
+    background-color: rgb(43, 43, 46);
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.titulo{
+    color: aliceblue;
+    font-size: 40px;
+    margin: 0;
+}
+
+ul{
+    font-size: 20px;
+    margin: 8px;
+}
+
+ul{
+    list-style-type: decimal;
+    color: rgb(104, 104, 248);
+}
+
+ul ul{
+    list-style-type: upper-roman;
+    color: rgb(84, 201, 84);
+}
+ul ul ul{
+    list-style-type: disc;
+    color: rgb(201, 31, 31);
+}

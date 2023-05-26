@@ -1,0 +1,60 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family:"Calibri", sans-serif;
+    background-color: rgb(64, 64, 68);
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.sessao_prin{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 60%;
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
+    border: 5px solid aliceblue;
+    border-radius: 50px;
+    background-color: rgb(43, 43, 46);
+}
+.sessao{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 60%;
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
+    border: 5px solid aliceblue;
+    border-radius: 50px;
+    background-color: rgb(61, 61, 65);
+    
+}
+.titulo{
+    color: aliceblue;
+    font-size: 40px;
+    margin: 0;
+}
+
+.sessao ul{
+    font-size: 20px;
+    margin: 8px;
+    list-style-type: decimal;
+    color: rgb(84, 201, 84);
+}
+
+.sessao ul ul{
+    list-style-type: upper-roman;
+    color: aliceblue;
+
+}
+
+.primeiro{
+    color: rgb(102, 102, 230);
+}
